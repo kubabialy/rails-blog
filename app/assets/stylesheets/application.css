@@ -19,6 +19,11 @@ body {
   color: #4B5043;
 }
 
+a {
+  text-decoration-line: none;
+  text-decoration-style: solid;
+}
+
 .button {
   background-color: #932F1D;
   border: none;
@@ -26,4 +31,29 @@ body {
   text-align: center;
   padding: 12px 30px;
   font-size: 18px;
+}
+
+nav {
+  background-color: #B6C197;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: 20px;
+  color: #932F1D;
+  display: inline;
+  padding: inherit 10px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  font-size: inherit;
+  color: inherit;
 }
